@@ -1,0 +1,26 @@
+@charset "UTF_8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    display: inline-block;
+    text-align: center;
+}
+
+div#shoes {
+    background-color: rgba(29, 29, 255, 0.747);
+    width: 300px;
+    height: 200px;
+}
+
+div#roupas {
+    background-color: rgba(245, 107, 107, 0.904);
+    width: 300px;
+    height: 200px;
+
+}
+
+div > p {
+    display: none;
+} 

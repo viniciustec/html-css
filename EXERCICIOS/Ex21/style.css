@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+header {
+    background-image:linear-gradient(to top, #37BF65,#2A916A) ;
+    height: 250px;
+    text-align: center;
+    color: white;
+}
+header > p.home:hover {
+    text-decoration: underline;
+}

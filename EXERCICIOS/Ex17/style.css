@@ -1,0 +1,50 @@
+@charset "UTF_8";
+
+
+body {
+    font-family: 'Work Sans', sans-serif;        
+    background-image:linear-gradient(to right, #A69C9C,#D9C8B4);
+    
+    
+    /* Medida absoluta 
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas
+
+    */
+
+   /* font-size: 1em ;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline; */
+} 
+
+main {
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #8C8177;
+
+}
+
+h1 {
+    /*
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    font-style: italic;
+    shorthand font
+    -font style -> font-weight ->font-size -> font-family
+    font:  bolder 2em Sans-serif ;
+    */
+    font-family: 'Patrick hand', 'serif';
+    font-size: 2em;
+    text-align: center;
+}
+h2 {
+    font-family: 'Patrick hand', 'serif' ;
+    font-size: 2em;
+    text-align: center
+}
