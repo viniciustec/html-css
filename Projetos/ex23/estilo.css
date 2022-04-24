@@ -38,15 +38,31 @@ header > p {
     padding-bottom: 50px;
 }
 
-header a, footer a  {
+a  {
     color: white;  
     text-decoration: none;
     font-weight: bolder;
 }
 
-a:hover {
-    text-decoration: underline;
+nav {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom :5px;
 }
+
+nav > a {
+    margin-right: 15px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
 
 section {
     padding-top: 10vh;
@@ -57,6 +73,10 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 30px;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -65,12 +85,37 @@ section.normal {
 section.imagem {
     background-color: rgb(65, 61, 61);
     color: white;
-    padding: 5px;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.507);
+    background-attachment: fixed;
+
 }
 
 section.imagem > p {
-    background-color:rgba(0, 0, 0, 0.247);
+    background-color:rgba(0, 0, 0, 0.5);
     display: inline-block;
+    text-shadow: 1px 1px 3px black;
+}
+
+section#img01 {
+    background-image: url('imagens/background001.jpg');
+}
+
+section#img02 {
+    background-image: url('imagens/background002.jpg');
+}
+
+main > a {
+    text-align: right;
+    background-color: white;
+    color: black;
+    display: block;
+    padding-right: 10px;
+}
+
+main > a:hover {
+    text-decoration: underline;
 }
 
 footer {
