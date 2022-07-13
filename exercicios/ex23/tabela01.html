@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+        table {
+           width: 400px;
+           height: 400px;
+           border: 5px solid red;
+           border-collapse: collapse;
+           text-align: center;
+           vertical-align: middle;
+        }
+
+        td {
+            border: 3px solid black;
+            padding: 8px;
+        }
+
+        td.a1 {
+            background-color: blue;
+            background-image: url('../ex22/imagens/wallpaper002.jpg');
+            color: white;
+        }
+
+        td.a2:hover {
+            background-color: red;
+            transition-duration: 0.5s;
+        }
+
+        td.a3 {
+            background-color: blue;
+            background-image: url('../ex22/imagens/wallpaper002.jpg');
+            color: white;
+        }
+
+        td.b1:hover {
+            background-color: red;
+            transition-duration: 0.5s;
+        }
+
+        td.b2 {
+            background-color: blue;
+            background-image: url('../ex22/imagens/wallpaper002.jpg');
+            color: white;
+        }
+
+        td.b3:hover {
+            background-color: red;
+            transition-duration: 0.5s;
+        }
+
+        td.c1 {
+            background-color: blue;
+            background-image: url('../ex22/imagens/wallpaper002.jpg');
+            color: white;
+        }
+
+        td.c2:hover {
+            background-color: red;
+            transition-duration: 0.5s;
+            box-shadow: inset 5px black;
+        }
+
+        td.c3 {
+            background-color: blue;
+            background-image: url('../ex22/imagens/wallpaper002.jpg');
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em HTML5</h1>
+    <TABLE>
+        <tr>
+            <td class="a1">A1</td>
+            <td class="a2">A2</td>
+            <td class="a3">A3</td>
+        </tr>
+        <tr>
+            <td class="b1">B1</td>
+            <td class="b2">B2</td>
+            <td class="b3">B3</td>
+        </tr>
+        <tr>
+            <td class="c1">C1</td>
+            <td class="c2">C2</td>
+            <td class="c3">C3</td>
+        </tr>
+    </TABLE>
+</body>
+</html>
